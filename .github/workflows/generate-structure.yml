@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Generate structure.json
-        run: python3 generate_structure.py
+        run: python3 .github/generate_structure.py
 
       - name: Commit and push structure.json
         run: |

@@ -1,0 +1,37 @@
+{
+  "advanced-materials": {
+    "introduction-to-advanced-materials": [
+      "Advanced_Materials_Formula_Booklet_2021-a-Ioannis_Karras.pdf"
+    ]
+  },
+  "cyber-systems": {
+    "introduction-to-cyber-systems": [
+      "Cyber_Systems_Overview-a-Studocu.pdf"
+    ]
+  },
+  "polytechnical-foundations": {
+    "physics1": [
+      "Physics_1_Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+      "Exam_Physics_Winter_Training_2024-a-PF.pdf",
+      "Exam_Physics_Summer_2024_(Solutions)-a-PF.pdf"
+    ],
+    "maths1b": [
+      "Maths_1b_Revision_Sheet_2021-a-Ioannis_Karras.pdf"
+    ],
+    "chemistry": [
+      "Chemistry_Formula_Booklet_2020-a-Ioannis_Karras.pdf"
+    ],
+    "maths1a": [
+      "Maths_1a_Revision_Sheet_2023-a-Ioannis_Karras.pdf"
+    ],
+    "statistics": [
+      "Exam_Statistics_December_2024_(Presentation)-a-GE_Union.pdf",
+      "Exam_Statistics_May_2024_(Presentation)-a-GE_Union.pdf"
+    ]
+  },
+  "rest-of-obligatory-courses": {
+    "maths2": [
+      "Maths_2_Revision_Sheet_2021-a-Ioannis_Karras.pdf"
+    ]
+  }
+}

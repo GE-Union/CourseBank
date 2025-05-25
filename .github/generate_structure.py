@@ -1,7 +1,7 @@
 import os
 import json
 
-EXCLUDED = {".git", ".github", "__pycache__"}
+EXCLUDED = {".git", ".github", "__pycache__", "res"}
 
 def build_structure(root):
     structure = {}

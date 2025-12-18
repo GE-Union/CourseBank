@@ -111,6 +111,7 @@ string.upper()
 string.find("World") # Returns index if not returns -1
 string.index("World") # Returns index
 string.count("l") # Count occurrences
+string.split("-") # split in parts divided by -, you can access the first part by string.split("-")[0]
 string.replace("World", "Alice") # Replace substring
 string.strip() # Remove whitespace
 

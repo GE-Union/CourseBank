@@ -1,39 +1,49 @@
 {
+  "advanced-materials": {
+    "introduction-to-advanced-materials": [
+      "Advanced_Materials_Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+      "Lattice_Plane_Visualiser_Tool-a-Nathan_Dane.zip",
+      "Advanced_Materials-2025-a-Afonso_Brito.pdf"
+    ],
+    "Design-Build-4": [
+      "DB4Exam2025-a-Jakob_Fu\u0308hr.pdf"
+    ]
+  },
   "polytechnical-foundations": {
-    "chemistry": [
-      "past exams.pdf",
-      "Chemistry_Formula_Booklet_2020-a-Ioannis_Karras.pdf"
+    "maths1a": [
+      "Math_Mindmaps-a-Kira_Bezkorovaina.pdf",
+      "Maths_1a_Revision_Sheet_2023-a-Ioannis_Karras.pdf"
     ],
     "statistics": [
-      "Exam_Statistics_December_2024_(Presentation)-a-GE_Union.pdf",
+      "Exam_Statistics_May_2024_(Presentation)-a-GE_Union.pdf",
       "Statistics_2025-a-Afonso_Brito.pdf",
-      "Statistics_2025-a-Aukse\u0307_Timinskaite\u0307.ipynb",
+      "Exam_Statistics_December_2024_(Presentation)-a-GE_Union.pdf",
       "Statistics_Jupyter_Notebooks-a-Nathan_and_Eirik.zip",
-      "Exam_Statistics_May_2024_(Presentation)-a-GE_Union.pdf"
+      "Statistics_2025-a-Aukse\u0307_Timinskaite\u0307.ipynb"
+    ],
+    "physics1": [
+      "Physics_Formulas-a-Aukse_Timinskaite.pdf",
+      "Exam_Physics_Summer_2024_(Solutions)-a-PF.pdf",
+      "Physics_1_Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+      "Exam_Physics_Winter_Training_2024-a-PF.pdf",
+      "Physics_2_Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+      "Exam_Physics_Winter_2024_Solutions-a-Carl_Johan.pdf",
+      "Physics_Winter_Exam_2024-a-Carl_Johan.ipynb"
+    ],
+    "maths1b": [
+      "Math_1b_Equations_2025-a-Emil_Overbeck.pdf",
+      "Maths_1b_Revision_Sheet_2021-a-Ioannis_Karras.pdf",
+      "Maths_Scripts_Notebook-a-Nathan_and_Eirik.ipynb",
+      "Math_1b_2025-a-Afonso_Brito.pdf"
     ],
     "computer-programming": [
       "Python_Overview-a-Afonso_Brito.ipynb",
       "cheatsheet_sara.py",
       "Python_Cheat_Sheets-a-Eric_Matthes.zip"
     ],
-    "maths1b": [
-      "Math_1b_Equations_2025-a-Emil_Overbeck.pdf",
-      "Maths_Scripts_Notebook-a-Nathan_and_Eirik.ipynb",
-      "Math_1b_2025-a-Afonso_Brito.pdf",
-      "Maths_1b_Revision_Sheet_2021-a-Ioannis_Karras.pdf"
-    ],
-    "physics1": [
-      "Exam_Physics_Summer_2024_(Solutions)-a-PF.pdf",
-      "Physics_2_Formula_Booklet_2021-a-Ioannis_Karras.pdf",
-      "Exam_Physics_Winter_Training_2024-a-PF.pdf",
-      "Physics_Winter_Exam_2024-a-Carl_Johan.ipynb",
-      "Physics_1_Formula_Booklet_2020-a-Ioannis_Karras.pdf",
-      "Exam_Physics_Winter_2024_Solutions-a-Carl_Johan.pdf",
-      "Physics_Formulas-a-Aukse_Timinskaite.pdf"
-    ],
-    "maths1a": [
-      "Math_Mindmaps-a-Kira_Bezkorovaina.pdf",
-      "Maths_1a_Revision_Sheet_2023-a-Ioannis_Karras.pdf"
+    "chemistry": [
+      "past exams.pdf",
+      "Chemistry_Formula_Booklet_2020-a-Ioannis_Karras.pdf"
     ]
   },
   "future-energy": {
@@ -41,21 +51,14 @@
       "Future_Energy_Equations-a-Olgierd_Janik.pdf"
     ]
   },
-  "rest-of-obligatory-courses": {
-    "maths2": [
-      "Maths_2_Revision_Sheet_2021-a-Ioannis_Karras.pdf"
-    ]
-  },
   "cyber-systems": {
     "introduction-to-cyber-systems": [
       "Cyber_Systems_Overview-a-Studocu.pdf"
     ]
   },
-  "advanced-materials": {
-    "introduction-to-advanced-materials": [
-      "Lattice_Plane_Visualiser_Tool-a-Nathan_Dane.zip",
-      "Advanced_Materials_Formula_Booklet_2021-a-Ioannis_Karras.pdf",
-      "Advanced_Materials-2025-a-Afonso_Brito.pdf"
+  "rest-of-obligatory-courses": {
+    "maths2": [
+      "Maths_2_Revision_Sheet_2021-a-Ioannis_Karras.pdf"
     ]
   }
 }

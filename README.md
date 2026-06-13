@@ -1,5 +1,5 @@
 # DTU Course Bank Library
-Here we keep all files for the [GE UNION course bank](https://geunion.dk/courses/) hosted and organised.
+Here we keep all files for the [GE UNION course bank](https://geunion.dk/course-bank) hosted and organised.
 
 All folders must reflect the spelling and format of the website.</br>
 All filenames must be in the format: `{filename}-a-{author}`, with '_' instead of spaces and no special characters.</br>

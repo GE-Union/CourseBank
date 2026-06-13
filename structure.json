@@ -1,119 +1,119 @@
 {
   "advanced-materials": {
     "computer-simulations-of-materials": [
-      "ComputerSimulationofMaterials-a-Afonso_Brito.pdf"
+      "Notes-a-Afonso_Brito.pdf"
     ],
     "introduction-to-advanced-materials": [
-      "F18_student_answers.pdf",
-      "Advanced_Materials_Formula_Booklet_2021-a-Ioannis_Karras.pdf",
-      "F23_(adjusted_for_F25).pdf",
+      "Past_Exam_F20.pdf",
+      "Notes-2025-a-Afonso_Brito.pdf",
       "Lattice_Plane_Visualiser_Tool-a-Nathan_Dane.zip",
-      "F22.pdf",
-      "F24_(adjusted_for_F25).pdf",
-      "F17_student_answers.pdf",
-      "F20.pdf",
-      "Advanced_Materials-2025-a-Afonso_Brito.pdf"
+      "Past_Exam_F17_student_answers.pdf",
+      "Past_Exam_F18_student_answers.pdf",
+      "Past_Exam_F24_(adjusted_for_F25).pdf",
+      "Past_Exam_F22.pdf",
+      "Past_Exam_F23_(adjusted_for_F25).pdf",
+      "Formula_Booklet_2021-a-Ioannis_Karras.pdf"
     ],
     "materials-characterization-and-testing": [
-      "Materialscharacterizationandtesting-a-Afonso_Brito.pdf"
+      "Notes-a-Afonso_Brito.pdf"
     ],
     "materials-technology": [
-      "MatTechExamFinalPresentation-a-Younis.pdf",
-      "MaterialsTechnology-a-Afonso_Brito.pdf"
+      "Notes-a-Afonso_Brito.pdf",
+      "Final_Presentation-a-Younis.pdf"
     ],
     "introduction-to-3d-printing": [
-      "Introductionto3DPrinting-a-Afonso_Brito.pdf"
+      "Notes-a-Afonso_Brito.pdf"
     ],
     "resource-engineering": [
       "TestQuestions-a-Younis.pdf"
     ],
     "introduction-to-numerical-algorithms": [
-      "IntroductiontoNumericalAlgorithms-a-Afonso_Brito.pdf",
-      "Numerical_algorithms_notes-a-Aukse\u0307_Timinskaite\u0307.ipynb"
+      "Notes-a-Afonso_Brito.pdf",
+      "Code-a-Auks\u0117_Timinskait\u0117.ipynb"
     ],
     "Design-Build-4": [
-      "DB4Exam2025-a-Jakob_Fu\u0308hr.pdf"
+      "Exam2025-a-Jakob_F\u00fchr.pdf"
     ]
   },
   "polytechnical-foundations": {
     "maths1a": [
-      "Math1a_HwSets-a-Anagha_Krishna_Prasad.pdf",
-      "Math_Mindmaps-a-Kira_Bezkorovaina.pdf",
+      "HwSets-a-Anagha_Krishna_Prasad.pdf",
+      "Mindmaps-a-Kira_Bezkorovaina.pdf",
       "Formulas-a-Kira.pdf",
-      "Maths_1a_Revision_Sheet_2023-a-Ioannis_Karras.pdf"
+      "Notes_2023-a-Ioannis_Karras.pdf"
     ],
     "interdisciplinary-bioengineering": [
       "ExamNotes.docx"
     ],
     "statistics": [
-      "Exam_Statistics_May_2024_(Presentation)-a-GE_Union.pdf",
-      "Statistics_2025-a-Afonso_Brito.pdf",
-      "Exam_Statistics_December_2024_(Presentation)-a-GE_Union.pdf",
-      "Statistics_Jupyter_Notebooks-a-Nathan_and_Eirik.zip",
-      "Statistics_2025-a-Aukse\u0307_Timinskaite\u0307.ipynb"
+      "Exam_May_2024_(Presentation)-a-GE_Union.pdf",
+      "Exam_December_2024_(Presentation)-a-GE_Union.pdf",
+      "Notes-a-Afonso_Brito.pdf",
+      "Code-a-Auks\u0117_Timinskait\u0117.ipynb",
+      "Jupyter_Notebooks-a-Nathan_and_Eirik.zip"
     ],
     "physics1": [
-      "Physics_Formulas-a-Aukse_Timinskaite.pdf",
-      "Exam_Physics_Summer_2024_(Solutions)-a-PF.pdf",
-      "Physics_1_Formula_Booklet_2020-a-Ioannis_Karras.pdf",
-      "Exam_Physics_Winter_Training_2024-a-PF.pdf",
-      "Physics_2_Formula_Booklet_2021-a-Ioannis_Karras.pdf",
-      "Exam_Physics_Winter_2024_Solutions-a-Carl_Johan.pdf",
-      "example_python_for_physics-a-Nitansh_Thaker.ipynb",
-      "Physics-a-Afonso_Brito.pdf",
-      "Physics_Winter_Exam_2024-a-Carl_Johan.ipynb"
+      "Exam_2024-a-PF.pdf",
+      "Notes-a-Afonso_Brito.pdf",
+      "Formulas-a-Aukse_Timinskaite.pdf",
+      "Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+      "Exam_2024_December_Solutions-a-Carl_Johan.pdf",
+      "Exam_2024_Code_Solution-a-Carl_Johan.ipynb",
+      "Python_code-a-Nitansh_Thaker.ipynb",
+      "Exam_2024_May_Solutions-a-PF.pdf",
+      "Formula_Booklet_2021-a-Ioannis_Karras.pdf"
     ],
     "maths1b": [
-      "Math1b_Parameterisation-a-Joakim S\u00f8bj\u00f8rn.pdf",
-      "Math_1b_Equations_2025-a-Emil_Overbeck.pdf",
-      "Maths_1b_Revision_Sheet_2021-a-Ioannis_Karras.pdf",
-      "Maths_Scripts_Notebook-a-Nathan_and_Eirik.ipynb",
-      "Math_1b_2025-a-Afonso_Brito.pdf"
+      "Parameterisation-a-Joakim S\u00f8bj\u00f8rn.pdf",
+      "Notes-a-Afonso_Brito.pdf",
+      "Equations_2025-a-Emil_Overbeck.pdf",
+      "Scripts_Notebook-a-Nathan_and_Eirik.ipynb"
     ],
     "computer-programming": [
+      "May_2024_Exam-a-Louis.zip",
       "Python_Overview-a-Afonso_Brito.ipynb",
-      "December_2024_(with_solutions_and_full_test_set)-a-Louis.zip",
-      "December_2023_Exam_(with_solutions_and_full_test_set)-a-Louis.zip",
-      "May_2025_Exam_(with_solutions_and_full_test_set)-a-Louis.zip",
+      "May_2025_Exam-a-Louis.zip",
+      "Cheat_Sheets-a-Eric_Matthes.zip",
+      "December_2023_Exam-a-Louis.zip",
       "cheatsheet_sara.py",
-      "Python_Cheat_Sheets-a-Eric_Matthes.zip",
-      "May_2024_Exam_(with_solutions_and_full_test_set)-a-Louis.zip"
+      "December_2024-a-Louis.zip"
     ],
     "chemistry": [
-      "past exams.pdf",
-      "Chemistry_Formula_Booklet_2020-a-Ioannis_Karras.pdf"
+      "Past_Exams.pdf",
+      "Formula_Booklet_2020-a-Ioannis_Karras.pdf"
     ]
   },
   "future-energy": {
     "introduction-to-future-energy": [
-      "Future_Energy_Equations-a-Olgierd_Janik.pdf"
+      "Equations-a-Olgierd_Janik.pdf",
+      "Notes-a-Roland_Bjerk\u00f8.pdf"
     ]
   },
   "living-systems": {
     "bio-process-technology": [
-      "BP_Equations-a-CecilieWium.pdf"
+      "Equations-a-CecilieWium.pdf"
     ],
     "fermentation-technology": [
-      "FermentationTechnology-2025-a-Marti\u0301 Vila.pdf"
+      "Notes_2025-a-Mart\u00ed Vila.pdf"
     ],
     "molecular-biology": [
-      "pt5_all_exams_lecturenotes_exercises-a-CecilieWium.pdf",
-      "pt2_all_exams_lecturenotes_exercises-a-CecilieWium.pdf",
-      "pt1_all_exams_lecturenotes_exercises-a-CecilieWium.pdf",
-      "pt4_all_exams_lecturenotes_exercises-a-CecilieWium.pdf",
-      "pt6_all_exams_lecturenotes_exercises-a-CecilieWium.pdf",
-      "pt3_all_exams_lecturenotes_exercises-a-CecilieWium.pdf"
+      "Super_Notes_pt3-a-CecilieWium.pdf",
+      "Super_Notes_pt5-a-CecilieWium.pdf",
+      "Super_Notes_pt4-a-CecilieWium.pdf",
+      "Super_Notes_pt1-a-CecilieWium.pdf",
+      "Super_Notes_pt6-a-CecilieWium.pdf",
+      "Super_Notes_pt2-a-CecilieWium.pdf"
     ]
   },
   "cyber-systems": {
     "introduction-to-cyber-systems": [
-      "Cyber_Systems_Overview-a-Studocu.pdf"
+      "Notes-a-Studocu.pdf"
     ]
   },
   "rest-of-obligatory-courses": {
     "maths2": [
       "Notes-a-Olgierd_Janik.pdf",
-      "Maths_2_Revision_Sheet_2021-a-Ioannis_Karras.pdf"
+      "Notes_2021-a-Ioannis_Karras.pdf"
     ]
   }
 }

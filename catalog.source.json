@@ -1,0 +1,181 @@
+{
+  "repository": {
+    "rawBase": "https://raw.githubusercontent.com/GE-Union/CourseBank"
+  },
+  "site": {
+    "title": "Course bank",
+    "tagline": "Find your relevant courses and notes - from students for students!",
+    "links": [
+      {
+        "id": "studocu",
+        "heading": "See more on",
+        "label": "Studocu",
+        "url": "https://www.studocu.com/da/institution/danmarks-tekniske-universitet/2833"
+      },
+      {
+        "id": "upload",
+        "heading": "Upload notes",
+        "label": "Here",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScRXlMZhGqmZ9dPn71PonKcp-LJXH2vlWVxcZ1EDnoZ1hH96Q/viewform?usp=header"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "foundations",
+      "folder": "polytechnical-foundations",
+      "name": "Polytechnical Foundations",
+      "shortName": "Foundations",
+      "emphasis": "Polytechnical Foundations",
+      "description": "The Polytechnical Foundations are a set of courses all at DTU are required to take. They cover a wide variety of stuffs and suck sometimes. They are still cool in general tho.",
+      "courses": [
+        {
+          "id": "mathematics-1a",
+          "folder": "maths1a",
+          "code": "01003",
+          "name": "Mathematics 1a",
+          "description": "Covers logic, complex numbers, polynomials, linear algebra, and differential equations, combining theory with computation. Strengthens problem-solving through reasoning, thematic exercises, and computer-based methods."
+        },
+        {
+          "id": "mathematics-1b",
+          "folder": "maths1b",
+          "code": "01004",
+          "name": "Mathematics 1b",
+          "description": "Focuses on multivariable calculus, including gradients, Jacobians, Taylor expansions, optimization, and vector fields. Combines theory and computation with integrals, parameterizations, and the spectral theorem. Develops skills through thematic exercises, group projects, and computer-based methods."
+        },
+        {
+          "id": "chemistry",
+          "folder": "chemistry",
+          "code": "26020",
+          "name": "Chemistry",
+          "description": "Covers atomic structure, bonding, thermodynamics, equilibrium, kinetics, acids/bases, and redox reactions. Connects chemistry to materials, catalysis, and element cycles with focus on technology and sustainability."
+        },
+        {
+          "id": "computer-programming",
+          "folder": "computer-programming",
+          "code": "02003",
+          "name": "Computer Programming",
+          "description": "Learn the basics of Python programming while solving real problems with code. You’ll practice everything from loops and functions to working with data, and even try out simple projects. A hands-on way to build the coding skills every engineer needs."
+        },
+        {
+          "id": "physics",
+          "folder": "physics1",
+          "code": "10063",
+          "name": "Physics",
+          "description": "Covers the big three of engineering physics: mechanics, thermodynamics, and electromagnetism: plus experiments. You’ll learn to model real systems, crunch data in Python, and see how physics explains (almost) everything around you."
+        },
+        {
+          "id": "statistics",
+          "folder": "statistics",
+          "code": "02402",
+          "name": "Statistics",
+          "description": "Learn how to make sense of data with graphs, probability, and statistical models. You’ll try out tools like Python to test ideas, run regressions, and check if results actually make sense."
+        },
+        {
+          "id": "interdisciplinary-bioengineering",
+          "folder": "interdisciplinary-bioengineering",
+          "code": "27020",
+          "name": "Interdisciplinary Bioengineering",
+          "description": "Get an intro to biology and biotechnology and see how they connect to engineering. From DNA and proteins to ecosystems and data science, you’ll explore how biology can inspire tech. Finish with a group project solving a real-world problem."
+        },
+        {
+          "id": "science-technology-and-society",
+          "folder": "science-technology-and-society",
+          "code": "42620",
+          "name": "Science, Technology and Society",
+          "description": "Explore how technology shapes society and sustainability from ethics and the SDGs to public debates about innovation. You’ll analyze real cases, tackle dilemmas, and learn tools to think critically about the role of engineers in the world."
+        },
+        {
+          "id": "mathematics-2",
+          "rootFolder": "rest-of-obligatory-courses",
+          "folder": "maths2",
+          "code": "01034",
+          "name": "Mathematics 2",
+          "description": "Takes math to the next level with differential equations, infinite series, and Fourier series. You’ll learn how to solve complex systems, test stability, and approximate functions.",
+          "separated": true
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "folder": "advanced-materials",
+      "name": "Advanced Materials",
+      "shortName": "Advanced",
+      "emphasis": "Advanced Materials",
+      "description": "The Advanced Materials specialization is about creating sustainable and functional materials for the future. From nanotechnology and modeling to acoustics, physics, and manufacturing, it opens doors across cutting-edge engineering fields.",
+      "courses": [
+        { "id": "introduction-to-advanced-materials", "folder": "introduction-to-advanced-materials", "code": "41680", "name": "Introduction to Advanced Materials" },
+        { "id": "introduction-to-numerical-algorithms", "folder": "introduction-to-numerical-algorithms", "code": "02601", "name": "Introduction to Numerical Algorithms" },
+        { "id": "resource-engineering", "folder": "resource-engineering", "code": "12139", "name": "Resource Engineering" },
+        { "id": "physics-for-materials-and-energy", "folder": "physics-for-materials-and-energy", "code": "10080", "name": "Physics for Materials and Energy" },
+        { "id": "materials-technology", "folder": "materials-technology", "code": "41684", "name": "Materials Technology" },
+        { "id": "materials-characterization-and-testing", "folder": "materials-characterization-and-testing", "code": "41685", "name": "Materials Characterization and Testing" },
+        { "id": "introduction-to-machine-learning", "folder": "introduction-to-machine-learning", "code": "02451", "name": "Introduction to Machine Learning" },
+        { "id": "image-analysis", "folder": "image-analysis", "code": "02503", "name": "Image Analysis" },
+        { "id": "mathematical-modelling", "folder": "mathematical-modelling", "code": "02526", "name": "Mathematical Modelling" },
+        { "id": "introduction-to-3d-printing", "folder": "introduction-to-3d-printing", "code": "41789", "name": "Introduction to 3D printing" },
+        { "id": "computer-simulations-of-materials", "folder": "computer-simulations-of-materials", "code": "47212", "name": "Computer Simulation of Materials" },
+        { "id": "design-build-4", "folder": "Design-Build-4", "code": "22400", "name": "Design-Build 4" }
+      ]
+    },
+    {
+      "id": "cyber",
+      "folder": "cyber-systems",
+      "name": "Cyber Systems",
+      "shortName": "Cyber",
+      "emphasis": "Cyber Systems",
+      "description": "The Cyber Systems specialization is about computers and integrated systems. It is objectively the best specialization for the best people.",
+      "courses": [
+        { "id": "introduction-to-cyber-systems", "folder": "introduction-to-cyber-systems", "code": "02135", "name": "Introduction to Cyber Systems" },
+        { "id": "discrete-mathematics", "folder": "discrete-mathematics", "code": "01017", "name": "Discrete Mathematics" },
+        { "id": "algorithms-and-data-structures-1", "folder": "algorithms-and-data-structures1", "code": "02105", "name": "Algorithms and Data Structures 1" },
+        { "id": "computer-science-modelling", "folder": "computer-science-modelling", "code": "02141", "name": "Computer Science Modelling" },
+        { "id": "functional-programming", "folder": "functional-programming", "code": "02157", "name": "Functional Programming" },
+        { "id": "agile-object-oriented-software-development", "folder": "agile-object-oriented-software-development", "code": "02160", "name": "Agile Object-oriented Software Development" }
+      ]
+    },
+    {
+      "id": "living",
+      "folder": "living-systems",
+      "name": "Living Systems",
+      "shortName": "Living",
+      "emphasis": "Living Systems",
+      "description": "The Living Systems specialization covers everything from food and aquatic engineering to healthcare, medicine, and chemicals. It’s a gateway to Denmark’s world-leading biotech and pharma scene, with strong links to companies like Novo Nordisk.",
+      "courses": [
+        { "id": "introduction-to-living-systems", "folder": "introduction-to-living-systems", "code": "12701", "name": "Introduction to Living Systems" },
+        { "id": "introduction-to-genetic-methods-in-engineering", "folder": "introduction-to-genetic-methods-in-engineering", "code": "25106", "name": "Introduction to Genetic Methods in Engineering" },
+        { "id": "biochemistry", "folder": "biochemistry", "code": "27022", "name": "Biochemistry" },
+        { "id": "experimental-molecular-microbiology", "folder": "experimental-molecular-microbiology", "code": "27027", "name": "Experimental Molecular Microbiology" },
+        { "id": "introduction-to-bioinformatics", "folder": "introduction-to-bioinformatics", "code": "22111", "name": "Introduction to Bioinformatics" },
+        { "id": "ecology", "folder": "ecology", "code": "25105", "name": "Ecology" },
+        { "id": "fisheries-and-aquaculture", "folder": "fisheries-and-aquaculture", "code": "25107", "name": "Fisheries and Aquaculture" },
+        { "id": "applied-molecular-techniques", "folder": "applied-molecular-techniques", "code": "25108", "name": "Applied Molecular Techniques" },
+        { "id": "biophysics-and-biophysical-chemistry", "folder": "biophysics-and-biophysical-chemistry", "code": "26211", "name": "Biophysics and Biophysical Chemistry" },
+        { "id": "molecular-biology", "folder": "molecular-biology", "code": "27026", "name": "Molecular Biology" },
+        { "id": "fermentation-technology", "folder": "fermentation-technology", "code": "27034", "name": "Fermentation Technology" },
+        { "id": "bio-process-technology", "folder": "bio-process-technology", "code": "28025", "name": "Bio Process Technology" }
+      ]
+    },
+    {
+      "id": "future",
+      "folder": "future-energy",
+      "name": "Future Energy",
+      "shortName": "Future",
+      "emphasis": "Future Energy",
+      "description": "The Future Energy specialization focuses on the green transition, from wind and solar power to electrolysis, applied chemistry, and sustainable entrepreneurship. It opens doors to careers in Denmark’s energy sector, with leading companies like Vestas driving innovation worldwide.",
+      "courses": [
+        { "id": "introduction-to-future-energy", "folder": "introduction-to-future-energy", "code": "47202", "name": "Introduction to Future Energy" },
+        { "id": "introduction-to-numerical-algorithms", "folder": "introduction-to-numerical-algorithms", "code": "02601", "name": "Introduction to Numerical Algorithms" },
+        { "id": "physics-for-materials-and-energy", "folder": "physics-for-materials-and-energy", "code": "10080", "name": "Physics for Materials and Energy" },
+        { "id": "general-electrical-engineering", "folder": "general-electrical-engineering", "code": "46055", "name": "General Electrical Engineering" },
+        { "id": "engineering-thermodynamics", "folder": "engineering-thermodynamics", "code": "47201", "name": "Engineering Thermodynamics" },
+        { "id": "physics-of-solar-energy-and-energy-storage", "folder": "physics-of-solar-energy-and-energy-storage", "code": "10260", "name": "Physics of Solar Energy and Energy Storage" },
+        { "id": "climate-change", "folder": "climate-change", "code": "12205", "name": "Climate Change" },
+        { "id": "introduction-to-wind-energy", "folder": "introduction-to-wind-energy", "code": "46000", "name": "Introduction to Wind Energy" },
+        { "id": "introduction-to-energy-analytics", "folder": "introduction-to-energy-analytics", "code": "46040", "name": "Introduction to Energy Analytics" },
+        { "id": "electrochemical-energy-technologies", "folder": "electrochemical-energy-technologies", "code": "47205", "name": "Electrochemical Energy Technologies" },
+        { "id": "electrochemical-energy-storage-and-power2x", "folder": "electrochemical-energy-storage-and-power2x", "code": "47211", "name": "Electrochemical Energy Storage and Power2X" }
+      ]
+    }
+  ]
+}

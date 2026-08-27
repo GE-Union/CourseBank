@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 2,
+  "sourceRevision": "cabb43ab5b86fd2d60c6f8505ed6fd6f5aeef62f",
+  "repository": {
+    "rawBase": "https://raw.githubusercontent.com/GE-Union/CourseBank"
+  },
+  "assets": {
+    "fileIcon": "res/file-icon.svg"
+  },
+  "site": {
+    "title": "Course bank",
+    "tagline": "Find your relevant courses and notes - from students for students!",
+    "links": [
+      {
+        "id": "studocu",
+        "heading": "See more on",
+        "label": "Studocu",
+        "url": "https://www.studocu.com/da/institution/danmarks-tekniske-universitet/2833"
+      },
+      {
+        "id": "upload",
+        "heading": "Upload notes",
+        "label": "Here",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScRXlMZhGqmZ9dPn71PonKcp-LJXH2vlWVxcZ1EDnoZ1hH96Q/viewform?usp=header"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "foundations",
+      "folder": "polytechnical-foundations",
+      "name": "Polytechnical Foundations",
+      "shortName": "Foundations",
+      "emphasis": "Polytechnical Foundations",
+      "description": "The Polytechnical Foundations are a set of courses all at DTU are required to take. They cover a wide variety of stuffs and suck sometimes. They are still cool in general tho.",
+      "courses": [
+        {
+          "id": "mathematics-1a",
+          "folder": "maths1a",
+          "path": "polytechnical-foundations/maths1a",
+          "code": "01003",
+          "name": "Mathematics 1a",
+          "description": "Covers logic, complex numbers, polynomials, linear algebra, and differential equations, combining theory with computation. Strengthens problem-solving through reasoning, thematic exercises, and computer-based methods.",
+          "files": [
+            {
+              "filename": "Formulas-a-Kira.pdf",
+              "path": "polytechnical-foundations/maths1a/Formulas-a-Kira.pdf",
+              "title": "Formulas",
+              "author": "Kira",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 3162345
+            },
+            {
+              "filename": "HwSets-a-Anagha_Krishna_Prasad.pdf",
+              "path": "polytechnical-foundations/maths1a/HwSets-a-Anagha_Krishna_Prasad.pdf",
+              "title": "HwSets",
+              "author": "Anagha Krishna Prasad",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 9964348
+            },
+            {
+              "filename": "Mindmaps-a-Kira_Bezkorovaina.pdf",
+              "path": "polytechnical-foundations/maths1a/Mindmaps-a-Kira_Bezkorovaina.pdf",
+              "title": "Mindmaps",
+              "author": "Kira Bezkorovaina",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 8284753
+            },
+            {
+              "filename": "Notes_2023-a-Ioannis_Karras.pdf",
+              "path": "polytechnical-foundations/maths1a/Notes_2023-a-Ioannis_Karras.pdf",
+              "title": "Notes 2023",
+              "author": "Ioannis Karras",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 605709
+            }
+          ]
+        },
+        {
+          "id": "mathematics-1b",
+          "folder": "maths1b",
+          "path": "polytechnical-foundations/maths1b",
+          "code": "01004",
+          "name": "Mathematics 1b",
+          "description": "Focuses on multivariable calculus, including gradients, Jacobians, Taylor expansions, optimization, and vector fields. Combines theory and computation with integrals, parameterizations, and the spectral theorem. Develops skills through thematic exercises, group projects, and computer-based methods.",
+          "files": [
+            {
+              "filename": "Equations_2025-a-Emil_Overbeck.pdf",
+              "path": "polytechnical-foundations/maths1b/Equations_2025-a-Emil_Overbeck.pdf",
+              "title": "Equations 2025",
+              "author": "Emil Overbeck",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 236929
+            },
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "polytechnical-foundations/maths1b/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 5386147
+            },
+            {
+              "filename": "Parameterisation-a-Joakim Søbjørn.pdf",
+              "path": "polytechnical-foundations/maths1b/Parameterisation-a-Joakim Søbjørn.pdf",
+              "title": "Parameterisation",
+              "author": "Joakim Søbjørn",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 724232
+            },
+            {
+              "filename": "Scripts_Notebook-a-Nathan_and_Eirik.ipynb",
+              "path": "polytechnical-foundations/maths1b/Scripts_Notebook-a-Nathan_and_Eirik.ipynb",
+              "title": "Scripts Notebook",
+              "author": "Nathan and Eirik",
+              "extension": "IPYNB",
+              "mediaType": "application/octet-stream",
+              "bytes": 26756
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "folder": "chemistry",
+          "path": "polytechnical-foundations/chemistry",
+          "code": "26020",
+          "name": "Chemistry",
+          "description": "Covers atomic structure, bonding, thermodynamics, equilibrium, kinetics, acids/bases, and redox reactions. Connects chemistry to materials, catalysis, and element cycles with focus on technology and sustainability.",
+          "files": [
+            {
+              "filename": "Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+              "path": "polytechnical-foundations/chemistry/Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+              "title": "Formula Booklet 2020",
+              "author": "Ioannis Karras",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 311024
+            },
+            {
+              "filename": "Past_Exams.pdf",
+              "path": "polytechnical-foundations/chemistry/Past_Exams.pdf",
+              "title": "Past Exams",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 2434083
+            }
+          ]
+        },
+        {
+          "id": "computer-programming",
+          "folder": "computer-programming",
+          "path": "polytechnical-foundations/computer-programming",
+          "code": "02003",
+          "name": "Computer Programming",
+          "description": "Learn the basics of Python programming while solving real problems with code. You’ll practice everything from loops and functions to working with data, and even try out simple projects. A hands-on way to build the coding skills every engineer needs.",
+          "files": [
+            {
+              "filename": "Cheat_Sheets-a-Eric_Matthes.zip",
+              "path": "polytechnical-foundations/computer-programming/Cheat_Sheets-a-Eric_Matthes.zip",
+              "title": "Cheat Sheets",
+              "author": "Eric Matthes",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 43970
+            },
+            {
+              "filename": "cheatsheet_sara.py",
+              "path": "polytechnical-foundations/computer-programming/cheatsheet_sara.py",
+              "title": "cheatsheet sara",
+              "author": "Unknown",
+              "extension": "PY",
+              "mediaType": "text/x-python",
+              "bytes": 7560
+            },
+            {
+              "filename": "December_2023_Exam-a-Louis.zip",
+              "path": "polytechnical-foundations/computer-programming/December_2023_Exam-a-Louis.zip",
+              "title": "December 2023 Exam",
+              "author": "Louis",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 244121
+            },
+            {
+              "filename": "December_2024-a-Louis.zip",
+              "path": "polytechnical-foundations/computer-programming/December_2024-a-Louis.zip",
+              "title": "December 2024",
+              "author": "Louis",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 459191
+            },
+            {
+              "filename": "May_2024_Exam-a-Louis.zip",
+              "path": "polytechnical-foundations/computer-programming/May_2024_Exam-a-Louis.zip",
+              "title": "May 2024 Exam",
+              "author": "Louis",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 307271
+            },
+            {
+              "filename": "May_2025_Exam-a-Louis.zip",
+              "path": "polytechnical-foundations/computer-programming/May_2025_Exam-a-Louis.zip",
+              "title": "May 2025 Exam",
+              "author": "Louis",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 458842
+            },
+            {
+              "filename": "Python_Overview-a-Afonso_Brito.ipynb",
+              "path": "polytechnical-foundations/computer-programming/Python_Overview-a-Afonso_Brito.ipynb",
+              "title": "Python Overview",
+              "author": "Afonso Brito",
+              "extension": "IPYNB",
+              "mediaType": "application/octet-stream",
+              "bytes": 248229
+            }
+          ]
+        },
+        {
+          "id": "physics",
+          "folder": "physics1",
+          "path": "polytechnical-foundations/physics1",
+          "code": "10063",
+          "name": "Physics",
+          "description": "Covers the big three of engineering physics: mechanics, thermodynamics, and electromagnetism: plus experiments. You’ll learn to model real systems, crunch data in Python, and see how physics explains (almost) everything around you.",
+          "files": [
+            {
+              "filename": "Exam_2024-a-PF.pdf",
+              "path": "polytechnical-foundations/physics1/Exam_2024-a-PF.pdf",
+              "title": "Exam 2024",
+              "author": "PF",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 548376
+            },
+            {
+              "filename": "Exam_2024_Code_Solution-a-Carl_Johan.ipynb",
+              "path": "polytechnical-foundations/physics1/Exam_2024_Code_Solution-a-Carl_Johan.ipynb",
+              "title": "Exam 2024 Code Solution",
+              "author": "Carl Johan",
+              "extension": "IPYNB",
+              "mediaType": "application/octet-stream",
+              "bytes": 300991
+            },
+            {
+              "filename": "Exam_2024_December_Solutions-a-Carl_Johan.pdf",
+              "path": "polytechnical-foundations/physics1/Exam_2024_December_Solutions-a-Carl_Johan.pdf",
+              "title": "Exam 2024 December Solutions",
+              "author": "Carl Johan",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 15962752
+            },
+            {
+              "filename": "Exam_2024_May_Solutions-a-PF.pdf",
+              "path": "polytechnical-foundations/physics1/Exam_2024_May_Solutions-a-PF.pdf",
+              "title": "Exam 2024 May Solutions",
+              "author": "PF",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 496009
+            },
+            {
+              "filename": "Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+              "path": "polytechnical-foundations/physics1/Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+              "title": "Formula Booklet 2020",
+              "author": "Ioannis Karras",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 434761
+            },
+            {
+              "filename": "Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+              "path": "polytechnical-foundations/physics1/Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+              "title": "Formula Booklet 2021",
+              "author": "Ioannis Karras",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 547228
+            },
+            {
+              "filename": "Formulas-a-Aukse_Timinskaite.pdf",
+              "path": "polytechnical-foundations/physics1/Formulas-a-Aukse_Timinskaite.pdf",
+              "title": "Formulas",
+              "author": "Aukse Timinskaite",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 523733
+            },
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "polytechnical-foundations/physics1/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1181837
+            },
+            {
+              "filename": "Python_code-a-Nitansh_Thaker.ipynb",
+              "path": "polytechnical-foundations/physics1/Python_code-a-Nitansh_Thaker.ipynb",
+              "title": "Python code",
+              "author": "Nitansh Thaker",
+              "extension": "IPYNB",
+              "mediaType": "application/octet-stream",
+              "bytes": 300991
+            }
+          ]
+        },
+        {
+          "id": "statistics",
+          "folder": "statistics",
+          "path": "polytechnical-foundations/statistics",
+          "code": "02402",
+          "name": "Statistics",
+          "description": "Learn how to make sense of data with graphs, probability, and statistical models. You’ll try out tools like Python to test ideas, run regressions, and check if results actually make sense.",
+          "files": [
+            {
+              "filename": "Code-a-Auksė_Timinskaitė.ipynb",
+              "path": "polytechnical-foundations/statistics/Code-a-Auksė_Timinskaitė.ipynb",
+              "title": "Code",
+              "author": "Auksė Timinskaitė",
+              "extension": "IPYNB",
+              "mediaType": "application/octet-stream",
+              "bytes": 84790
+            },
+            {
+              "filename": "Exam_December_2024_(Presentation)-a-GE_Union.pdf",
+              "path": "polytechnical-foundations/statistics/Exam_December_2024_(Presentation)-a-GE_Union.pdf",
+              "title": "Exam December 2024 (Presentation)",
+              "author": "GE Union",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 755971
+            },
+            {
+              "filename": "Exam_May_2024_(Presentation)-a-GE_Union.pdf",
+              "path": "polytechnical-foundations/statistics/Exam_May_2024_(Presentation)-a-GE_Union.pdf",
+              "title": "Exam May 2024 (Presentation)",
+              "author": "GE Union",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 772928
+            },
+            {
+              "filename": "Jupyter_Notebooks-a-Nathan_and_Eirik.zip",
+              "path": "polytechnical-foundations/statistics/Jupyter_Notebooks-a-Nathan_and_Eirik.zip",
+              "title": "Jupyter Notebooks",
+              "author": "Nathan and Eirik",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 427734
+            },
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "polytechnical-foundations/statistics/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 7002988
+            }
+          ]
+        },
+        {
+          "id": "interdisciplinary-bioengineering",
+          "folder": "interdisciplinary-bioengineering",
+          "path": "polytechnical-foundations/interdisciplinary-bioengineering",
+          "code": "27020",
+          "name": "Interdisciplinary Bioengineering",
+          "description": "Get an intro to biology and biotechnology and see how they connect to engineering. From DNA and proteins to ecosystems and data science, you’ll explore how biology can inspire tech. Finish with a group project solving a real-world problem.",
+          "files": [
+            {
+              "filename": "ExamNotes.docx",
+              "path": "polytechnical-foundations/interdisciplinary-bioengineering/ExamNotes.docx",
+              "title": "ExamNotes",
+              "author": "Unknown",
+              "extension": "DOCX",
+              "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "bytes": 101960
+            }
+          ]
+        },
+        {
+          "id": "science-technology-and-society",
+          "folder": "science-technology-and-society",
+          "path": "polytechnical-foundations/science-technology-and-society",
+          "code": "42620",
+          "name": "Science, Technology and Society",
+          "description": "Explore how technology shapes society and sustainability from ethics and the SDGs to public debates about innovation. You’ll analyze real cases, tackle dilemmas, and learn tools to think critically about the role of engineers in the world.",
+          "files": []
+        },
+        {
+          "id": "mathematics-2",
+          "folder": "maths2",
+          "path": "rest-of-obligatory-courses/maths2",
+          "code": "01034",
+          "name": "Mathematics 2",
+          "description": "Takes math to the next level with differential equations, infinite series, and Fourier series. You’ll learn how to solve complex systems, test stability, and approximate functions.",
+          "files": [
+            {
+              "filename": "Notes-a-Olgierd_Janik.pdf",
+              "path": "rest-of-obligatory-courses/maths2/Notes-a-Olgierd_Janik.pdf",
+              "title": "Notes",
+              "author": "Olgierd Janik",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 246162
+            },
+            {
+              "filename": "Notes_2021-a-Ioannis_Karras.pdf",
+              "path": "rest-of-obligatory-courses/maths2/Notes_2021-a-Ioannis_Karras.pdf",
+              "title": "Notes 2021",
+              "author": "Ioannis Karras",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 686201
+            }
+          ],
+          "separated": true
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "folder": "advanced-materials",
+      "name": "Advanced Materials",
+      "shortName": "Advanced",
+      "emphasis": "Advanced Materials",
+      "description": "The Advanced Materials specialization is about creating sustainable and functional materials for the future. From nanotechnology and modeling to acoustics, physics, and manufacturing, it opens doors across cutting-edge engineering fields.",
+      "courses": [
+        {
+          "id": "introduction-to-advanced-materials",
+          "folder": "introduction-to-advanced-materials",
+          "path": "advanced-materials/introduction-to-advanced-materials",
+          "code": "41680",
+          "name": "Introduction to Advanced Materials",
+          "description": "",
+          "files": [
+            {
+              "filename": "Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+              "title": "Formula Booklet 2021",
+              "author": "Ioannis Karras",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 403415
+            },
+            {
+              "filename": "Lattice_Plane_Visualiser_Tool-a-Nathan_Dane.zip",
+              "path": "advanced-materials/introduction-to-advanced-materials/Lattice_Plane_Visualiser_Tool-a-Nathan_Dane.zip",
+              "title": "Lattice Plane Visualiser Tool",
+              "author": "Nathan Dane",
+              "extension": "ZIP",
+              "mediaType": "application/zip",
+              "bytes": 931628
+            },
+            {
+              "filename": "Notes-2025-a-Afonso_Brito.pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Notes-2025-a-Afonso_Brito.pdf",
+              "title": "Notes-2025",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 3022741
+            },
+            {
+              "filename": "Past_Exam_F17_student_answers.pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Past_Exam_F17_student_answers.pdf",
+              "title": "Past Exam F17 student answers",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1553030
+            },
+            {
+              "filename": "Past_Exam_F18_student_answers.pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Past_Exam_F18_student_answers.pdf",
+              "title": "Past Exam F18 student answers",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1303765
+            },
+            {
+              "filename": "Past_Exam_F20.pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Past_Exam_F20.pdf",
+              "title": "Past Exam F20",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 2876117
+            },
+            {
+              "filename": "Past_Exam_F22.pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Past_Exam_F22.pdf",
+              "title": "Past Exam F22",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 8569222
+            },
+            {
+              "filename": "Past_Exam_F23_(adjusted_for_F25).pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Past_Exam_F23_(adjusted_for_F25).pdf",
+              "title": "Past Exam F23 (adjusted for F25)",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 3906230
+            },
+            {
+              "filename": "Past_Exam_F24_(adjusted_for_F25).pdf",
+              "path": "advanced-materials/introduction-to-advanced-materials/Past_Exam_F24_(adjusted_for_F25).pdf",
+              "title": "Past Exam F24 (adjusted for F25)",
+              "author": "Unknown",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 3124262
+            }
+          ]
+        },
+        {
+          "id": "introduction-to-numerical-algorithms",
+          "folder": "introduction-to-numerical-algorithms",
+          "path": "advanced-materials/introduction-to-numerical-algorithms",
+          "code": "02601",
+          "name": "Introduction to Numerical Algorithms",
+          "description": "",
+          "files": [
+            {
+              "filename": "Code-a-Auksė_Timinskaitė.ipynb",
+              "path": "advanced-materials/introduction-to-numerical-algorithms/Code-a-Auksė_Timinskaitė.ipynb",
+              "title": "Code",
+              "author": "Auksė Timinskaitė",
+              "extension": "IPYNB",
+              "mediaType": "application/octet-stream",
+              "bytes": 116439
+            },
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "advanced-materials/introduction-to-numerical-algorithms/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1684055
+            }
+          ]
+        },
+        {
+          "id": "resource-engineering",
+          "folder": "resource-engineering",
+          "path": "advanced-materials/resource-engineering",
+          "code": "12139",
+          "name": "Resource Engineering",
+          "description": "",
+          "files": [
+            {
+              "filename": "TestQuestions-a-Younis.pdf",
+              "path": "advanced-materials/resource-engineering/TestQuestions-a-Younis.pdf",
+              "title": "TestQuestions",
+              "author": "Younis",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 548763
+            }
+          ]
+        },
+        {
+          "id": "physics-for-materials-and-energy",
+          "folder": "physics-for-materials-and-energy",
+          "path": "advanced-materials/physics-for-materials-and-energy",
+          "code": "10080",
+          "name": "Physics for Materials and Energy",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "materials-technology",
+          "folder": "materials-technology",
+          "path": "advanced-materials/materials-technology",
+          "code": "41684",
+          "name": "Materials Technology",
+          "description": "",
+          "files": [
+            {
+              "filename": "Final_Presentation-a-Younis.pdf",
+              "path": "advanced-materials/materials-technology/Final_Presentation-a-Younis.pdf",
+              "title": "Final Presentation",
+              "author": "Younis",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1855247
+            },
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "advanced-materials/materials-technology/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 4462247
+            }
+          ]
+        },
+        {
+          "id": "materials-characterization-and-testing",
+          "folder": "materials-characterization-and-testing",
+          "path": "advanced-materials/materials-characterization-and-testing",
+          "code": "41685",
+          "name": "Materials Characterization and Testing",
+          "description": "",
+          "files": [
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "advanced-materials/materials-characterization-and-testing/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 5659245
+            }
+          ]
+        },
+        {
+          "id": "introduction-to-machine-learning",
+          "folder": "introduction-to-machine-learning",
+          "path": "advanced-materials/introduction-to-machine-learning",
+          "code": "02451",
+          "name": "Introduction to Machine Learning",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "image-analysis",
+          "folder": "image-analysis",
+          "path": "advanced-materials/image-analysis",
+          "code": "02503",
+          "name": "Image Analysis",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "mathematical-modelling",
+          "folder": "mathematical-modelling",
+          "path": "advanced-materials/mathematical-modelling",
+          "code": "02526",
+          "name": "Mathematical Modelling",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "introduction-to-3d-printing",
+          "folder": "introduction-to-3d-printing",
+          "path": "advanced-materials/introduction-to-3d-printing",
+          "code": "41789",
+          "name": "Introduction to 3D printing",
+          "description": "",
+          "files": [
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "advanced-materials/introduction-to-3d-printing/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 5475398
+            }
+          ]
+        },
+        {
+          "id": "computer-simulations-of-materials",
+          "folder": "computer-simulations-of-materials",
+          "path": "advanced-materials/computer-simulations-of-materials",
+          "code": "47212",
+          "name": "Computer Simulation of Materials",
+          "description": "",
+          "files": [
+            {
+              "filename": "Notes-a-Afonso_Brito.pdf",
+              "path": "advanced-materials/computer-simulations-of-materials/Notes-a-Afonso_Brito.pdf",
+              "title": "Notes",
+              "author": "Afonso Brito",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 2296036
+            }
+          ]
+        },
+        {
+          "id": "design-build-4",
+          "folder": "Design-Build-4",
+          "path": "advanced-materials/Design-Build-4",
+          "code": "22400",
+          "name": "Design-Build 4",
+          "description": "",
+          "files": [
+            {
+              "filename": "Exam2025-a-Jakob_Führ.pdf",
+              "path": "advanced-materials/Design-Build-4/Exam2025-a-Jakob_Führ.pdf",
+              "title": "Exam2025",
+              "author": "Jakob Führ",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1107701
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cyber",
+      "folder": "cyber-systems",
+      "name": "Cyber Systems",
+      "shortName": "Cyber",
+      "emphasis": "Cyber Systems",
+      "description": "The Cyber Systems specialization is about computers and integrated systems. It is objectively the best specialization for the best people.",
+      "courses": [
+        {
+          "id": "introduction-to-cyber-systems",
+          "folder": "introduction-to-cyber-systems",
+          "path": "cyber-systems/introduction-to-cyber-systems",
+          "code": "02135",
+          "name": "Introduction to Cyber Systems",
+          "description": "",
+          "files": [
+            {
+              "filename": "Notes-a-Studocu.pdf",
+              "path": "cyber-systems/introduction-to-cyber-systems/Notes-a-Studocu.pdf",
+              "title": "Notes",
+              "author": "Studocu",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1210013
+            }
+          ]
+        },
+        {
+          "id": "discrete-mathematics",
+          "folder": "discrete-mathematics",
+          "path": "cyber-systems/discrete-mathematics",
+          "code": "01017",
+          "name": "Discrete Mathematics",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "algorithms-and-data-structures-1",
+          "folder": "algorithms-and-data-structures1",
+          "path": "cyber-systems/algorithms-and-data-structures1",
+          "code": "02105",
+          "name": "Algorithms and Data Structures 1",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "computer-science-modelling",
+          "folder": "computer-science-modelling",
+          "path": "cyber-systems/computer-science-modelling",
+          "code": "02141",
+          "name": "Computer Science Modelling",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "functional-programming",
+          "folder": "functional-programming",
+          "path": "cyber-systems/functional-programming",
+          "code": "02157",
+          "name": "Functional Programming",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "agile-object-oriented-software-development",
+          "folder": "agile-object-oriented-software-development",
+          "path": "cyber-systems/agile-object-oriented-software-development",
+          "code": "02160",
+          "name": "Agile Object-oriented Software Development",
+          "description": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "folder": "living-systems",
+      "name": "Living Systems",
+      "shortName": "Living",
+      "emphasis": "Living Systems",
+      "description": "The Living Systems specialization covers everything from food and aquatic engineering to healthcare, medicine, and chemicals. It’s a gateway to Denmark’s world-leading biotech and pharma scene, with strong links to companies like Novo Nordisk.",
+      "courses": [
+        {
+          "id": "introduction-to-living-systems",
+          "folder": "introduction-to-living-systems",
+          "path": "living-systems/introduction-to-living-systems",
+          "code": "12701",
+          "name": "Introduction to Living Systems",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "introduction-to-genetic-methods-in-engineering",
+          "folder": "introduction-to-genetic-methods-in-engineering",
+          "path": "living-systems/introduction-to-genetic-methods-in-engineering",
+          "code": "25106",
+          "name": "Introduction to Genetic Methods in Engineering",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "biochemistry",
+          "folder": "biochemistry",
+          "path": "living-systems/biochemistry",
+          "code": "27022",
+          "name": "Biochemistry",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "experimental-molecular-microbiology",
+          "folder": "experimental-molecular-microbiology",
+          "path": "living-systems/experimental-molecular-microbiology",
+          "code": "27027",
+          "name": "Experimental Molecular Microbiology",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "introduction-to-bioinformatics",
+          "folder": "introduction-to-bioinformatics",
+          "path": "living-systems/introduction-to-bioinformatics",
+          "code": "22111",
+          "name": "Introduction to Bioinformatics",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "ecology",
+          "folder": "ecology",
+          "path": "living-systems/ecology",
+          "code": "25105",
+          "name": "Ecology",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "fisheries-and-aquaculture",
+          "folder": "fisheries-and-aquaculture",
+          "path": "living-systems/fisheries-and-aquaculture",
+          "code": "25107",
+          "name": "Fisheries and Aquaculture",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "applied-molecular-techniques",
+          "folder": "applied-molecular-techniques",
+          "path": "living-systems/applied-molecular-techniques",
+          "code": "25108",
+          "name": "Applied Molecular Techniques",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "biophysics-and-biophysical-chemistry",
+          "folder": "biophysics-and-biophysical-chemistry",
+          "path": "living-systems/biophysics-and-biophysical-chemistry",
+          "code": "26211",
+          "name": "Biophysics and Biophysical Chemistry",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "molecular-biology",
+          "folder": "molecular-biology",
+          "path": "living-systems/molecular-biology",
+          "code": "27026",
+          "name": "Molecular Biology",
+          "description": "",
+          "files": [
+            {
+              "filename": "Super_Notes_pt1-a-CecilieWium.pdf",
+              "path": "living-systems/molecular-biology/Super_Notes_pt1-a-CecilieWium.pdf",
+              "title": "Super Notes pt1",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 2
+            },
+            {
+              "filename": "Super_Notes_pt2-a-CecilieWium.pdf",
+              "path": "living-systems/molecular-biology/Super_Notes_pt2-a-CecilieWium.pdf",
+              "title": "Super Notes pt2",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 2
+            },
+            {
+              "filename": "Super_Notes_pt3-a-CecilieWium.pdf",
+              "path": "living-systems/molecular-biology/Super_Notes_pt3-a-CecilieWium.pdf",
+              "title": "Super Notes pt3",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 2
+            },
+            {
+              "filename": "Super_Notes_pt4-a-CecilieWium.pdf",
+              "path": "living-systems/molecular-biology/Super_Notes_pt4-a-CecilieWium.pdf",
+              "title": "Super Notes pt4",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 10279554
+            },
+            {
+              "filename": "Super_Notes_pt5-a-CecilieWium.pdf",
+              "path": "living-systems/molecular-biology/Super_Notes_pt5-a-CecilieWium.pdf",
+              "title": "Super Notes pt5",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 10153814
+            },
+            {
+              "filename": "Super_Notes_pt6-a-CecilieWium.pdf",
+              "path": "living-systems/molecular-biology/Super_Notes_pt6-a-CecilieWium.pdf",
+              "title": "Super Notes pt6",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 5123549
+            }
+          ]
+        },
+        {
+          "id": "fermentation-technology",
+          "folder": "fermentation-technology",
+          "path": "living-systems/fermentation-technology",
+          "code": "27034",
+          "name": "Fermentation Technology",
+          "description": "",
+          "files": [
+            {
+              "filename": "Notes_2025-a-Martí Vila.pdf",
+              "path": "living-systems/fermentation-technology/Notes_2025-a-Martí Vila.pdf",
+              "title": "Notes 2025",
+              "author": "Martí Vila",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 4740782
+            }
+          ]
+        },
+        {
+          "id": "bio-process-technology",
+          "folder": "bio-process-technology",
+          "path": "living-systems/bio-process-technology",
+          "code": "28025",
+          "name": "Bio Process Technology",
+          "description": "",
+          "files": [
+            {
+              "filename": "Equations-a-CecilieWium.pdf",
+              "path": "living-systems/bio-process-technology/Equations-a-CecilieWium.pdf",
+              "title": "Equations",
+              "author": "CecilieWium",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 1175184
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "folder": "future-energy",
+      "name": "Future Energy",
+      "shortName": "Future",
+      "emphasis": "Future Energy",
+      "description": "The Future Energy specialization focuses on the green transition, from wind and solar power to electrolysis, applied chemistry, and sustainable entrepreneurship. It opens doors to careers in Denmark’s energy sector, with leading companies like Vestas driving innovation worldwide.",
+      "courses": [
+        {
+          "id": "introduction-to-future-energy",
+          "folder": "introduction-to-future-energy",
+          "path": "future-energy/introduction-to-future-energy",
+          "code": "47202",
+          "name": "Introduction to Future Energy",
+          "description": "",
+          "files": [
+            {
+              "filename": "Equations-a-Olgierd_Janik.pdf",
+              "path": "future-energy/introduction-to-future-energy/Equations-a-Olgierd_Janik.pdf",
+              "title": "Equations",
+              "author": "Olgierd Janik",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 91589
+            },
+            {
+              "filename": "Notes-a-Roland_Bjerkø.pdf",
+              "path": "future-energy/introduction-to-future-energy/Notes-a-Roland_Bjerkø.pdf",
+              "title": "Notes",
+              "author": "Roland Bjerkø",
+              "extension": "PDF",
+              "mediaType": "application/pdf",
+              "bytes": 6787344
+            }
+          ]
+        },
+        {
+          "id": "introduction-to-numerical-algorithms",
+          "folder": "introduction-to-numerical-algorithms",
+          "path": "future-energy/introduction-to-numerical-algorithms",
+          "code": "02601",
+          "name": "Introduction to Numerical Algorithms",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "physics-for-materials-and-energy",
+          "folder": "physics-for-materials-and-energy",
+          "path": "future-energy/physics-for-materials-and-energy",
+          "code": "10080",
+          "name": "Physics for Materials and Energy",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "general-electrical-engineering",
+          "folder": "general-electrical-engineering",
+          "path": "future-energy/general-electrical-engineering",
+          "code": "46055",
+          "name": "General Electrical Engineering",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "engineering-thermodynamics",
+          "folder": "engineering-thermodynamics",
+          "path": "future-energy/engineering-thermodynamics",
+          "code": "47201",
+          "name": "Engineering Thermodynamics",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "physics-of-solar-energy-and-energy-storage",
+          "folder": "physics-of-solar-energy-and-energy-storage",
+          "path": "future-energy/physics-of-solar-energy-and-energy-storage",
+          "code": "10260",
+          "name": "Physics of Solar Energy and Energy Storage",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "climate-change",
+          "folder": "climate-change",
+          "path": "future-energy/climate-change",
+          "code": "12205",
+          "name": "Climate Change",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "introduction-to-wind-energy",
+          "folder": "introduction-to-wind-energy",
+          "path": "future-energy/introduction-to-wind-energy",
+          "code": "46000",
+          "name": "Introduction to Wind Energy",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "introduction-to-energy-analytics",
+          "folder": "introduction-to-energy-analytics",
+          "path": "future-energy/introduction-to-energy-analytics",
+          "code": "46040",
+          "name": "Introduction to Energy Analytics",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "electrochemical-energy-technologies",
+          "folder": "electrochemical-energy-technologies",
+          "path": "future-energy/electrochemical-energy-technologies",
+          "code": "47205",
+          "name": "Electrochemical Energy Technologies",
+          "description": "",
+          "files": []
+        },
+        {
+          "id": "electrochemical-energy-storage-and-power2x",
+          "folder": "electrochemical-energy-storage-and-power2x",
+          "path": "future-energy/electrochemical-energy-storage-and-power2x",
+          "code": "47211",
+          "name": "Electrochemical Energy Storage and Power2X",
+          "description": "",
+          "files": []
+        }
+      ]
+    }
+  ]
+}

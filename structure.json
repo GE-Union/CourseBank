@@ -1,108 +1,92 @@
 {
-  "advanced-materials": {
-    "computer-simulations-of-materials": [
+  "polytechnical-foundations": {
+    "maths1a": [
+      "Formulas-a-Kira.pdf",
+      "HwSets-a-Anagha_Krishna_Prasad.pdf",
+      "Mindmaps-a-Kira_Bezkorovaina.pdf",
+      "Notes_2023-a-Ioannis_Karras.pdf"
+    ],
+    "maths1b": [
+      "Equations_2025-a-Emil_Overbeck.pdf",
+      "Notes-a-Afonso_Brito.pdf",
+      "Parameterisation-a-Joakim Søbjørn.pdf",
+      "Scripts_Notebook-a-Nathan_and_Eirik.ipynb"
+    ],
+    "chemistry": [
+      "Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+      "Past_Exams.pdf"
+    ],
+    "computer-programming": [
+      "Cheat_Sheets-a-Eric_Matthes.zip",
+      "cheatsheet_sara.py",
+      "December_2023_Exam-a-Louis.zip",
+      "December_2024-a-Louis.zip",
+      "May_2024_Exam-a-Louis.zip",
+      "May_2025_Exam-a-Louis.zip",
+      "Python_Overview-a-Afonso_Brito.ipynb"
+    ],
+    "physics1": [
+      "Exam_2024-a-PF.pdf",
+      "Exam_2024_Code_Solution-a-Carl_Johan.ipynb",
+      "Exam_2024_December_Solutions-a-Carl_Johan.pdf",
+      "Exam_2024_May_Solutions-a-PF.pdf",
+      "Formula_Booklet_2020-a-Ioannis_Karras.pdf",
+      "Formula_Booklet_2021-a-Ioannis_Karras.pdf",
+      "Formulas-a-Aukse_Timinskaite.pdf",
+      "Notes-a-Afonso_Brito.pdf",
+      "Python_code-a-Nitansh_Thaker.ipynb"
+    ],
+    "statistics": [
+      "Code-a-Auksė_Timinskaitė.ipynb",
+      "Exam_December_2024_(Presentation)-a-GE_Union.pdf",
+      "Exam_May_2024_(Presentation)-a-GE_Union.pdf",
+      "Jupyter_Notebooks-a-Nathan_and_Eirik.zip",
       "Notes-a-Afonso_Brito.pdf"
     ],
+    "interdisciplinary-bioengineering": [
+      "ExamNotes.docx"
+    ]
+  },
+  "rest-of-obligatory-courses": {
+    "maths2": [
+      "Notes-a-Olgierd_Janik.pdf",
+      "Notes_2021-a-Ioannis_Karras.pdf"
+    ]
+  },
+  "advanced-materials": {
     "introduction-to-advanced-materials": [
-      "Past_Exam_F20.pdf",
-      "Notes-2025-a-Afonso_Brito.pdf",
+      "Formula_Booklet_2021-a-Ioannis_Karras.pdf",
       "Lattice_Plane_Visualiser_Tool-a-Nathan_Dane.zip",
+      "Notes-2025-a-Afonso_Brito.pdf",
       "Past_Exam_F17_student_answers.pdf",
       "Past_Exam_F18_student_answers.pdf",
-      "Past_Exam_F24_(adjusted_for_F25).pdf",
+      "Past_Exam_F20.pdf",
       "Past_Exam_F22.pdf",
       "Past_Exam_F23_(adjusted_for_F25).pdf",
-      "Formula_Booklet_2021-a-Ioannis_Karras.pdf"
+      "Past_Exam_F24_(adjusted_for_F25).pdf"
     ],
-    "materials-characterization-and-testing": [
-      "Notes-a-Afonso_Brito.pdf"
-    ],
-    "materials-technology": [
-      "Notes-a-Afonso_Brito.pdf",
-      "Final_Presentation-a-Younis.pdf"
-    ],
-    "introduction-to-3d-printing": [
+    "introduction-to-numerical-algorithms": [
+      "Code-a-Auksė_Timinskaitė.ipynb",
       "Notes-a-Afonso_Brito.pdf"
     ],
     "resource-engineering": [
       "TestQuestions-a-Younis.pdf"
     ],
-    "introduction-to-numerical-algorithms": [
-      "Notes-a-Afonso_Brito.pdf",
-      "Code-a-Auks\u0117_Timinskait\u0117.ipynb"
+    "materials-technology": [
+      "Final_Presentation-a-Younis.pdf",
+      "Notes-a-Afonso_Brito.pdf"
+    ],
+    "materials-characterization-and-testing": [
+      "Notes-a-Afonso_Brito.pdf"
+    ],
+    "introduction-to-3d-printing": [
+      "Notes-a-Afonso_Brito.pdf"
+    ],
+    "computer-simulations-of-materials": [
+      "Notes-a-Afonso_Brito.pdf"
     ],
     "Design-Build-4": [
-      "Exam2025-a-Jakob_F\u00fchr.pdf"
-    ]
-  },
-  "polytechnical-foundations": {
-    "maths1a": [
-      "HwSets-a-Anagha_Krishna_Prasad.pdf",
-      "Mindmaps-a-Kira_Bezkorovaina.pdf",
-      "Formulas-a-Kira.pdf",
-      "Notes_2023-a-Ioannis_Karras.pdf"
-    ],
-    "interdisciplinary-bioengineering": [
-      "ExamNotes.docx"
-    ],
-    "statistics": [
-      "Exam_May_2024_(Presentation)-a-GE_Union.pdf",
-      "Exam_December_2024_(Presentation)-a-GE_Union.pdf",
-      "Notes-a-Afonso_Brito.pdf",
-      "Code-a-Auks\u0117_Timinskait\u0117.ipynb",
-      "Jupyter_Notebooks-a-Nathan_and_Eirik.zip"
-    ],
-    "physics1": [
-      "Exam_2024-a-PF.pdf",
-      "Notes-a-Afonso_Brito.pdf",
-      "Formulas-a-Aukse_Timinskaite.pdf",
-      "Formula_Booklet_2020-a-Ioannis_Karras.pdf",
-      "Exam_2024_December_Solutions-a-Carl_Johan.pdf",
-      "Exam_2024_Code_Solution-a-Carl_Johan.ipynb",
-      "Python_code-a-Nitansh_Thaker.ipynb",
-      "Exam_2024_May_Solutions-a-PF.pdf",
-      "Formula_Booklet_2021-a-Ioannis_Karras.pdf"
-    ],
-    "maths1b": [
-      "Notes-a-Afonso_Brito.pdf",
-      "Parameterisation-a-Joakim_S\u00f8bj\u00f8rn.pdf",
-      "Equations_2025-a-Emil_Overbeck.pdf",
-      "Scripts_Notebook-a-Nathan_and_Eirik.ipynb"
-    ],
-    "computer-programming": [
-      "May_2024_Exam-a-Louis.zip",
-      "Python_Overview-a-Afonso_Brito.ipynb",
-      "May_2025_Exam-a-Louis.zip",
-      "Cheat_Sheets-a-Eric_Matthes.zip",
-      "December_2023_Exam-a-Louis.zip",
-      "cheatsheet_sara.py",
-      "December_2024-a-Louis.zip"
-    ],
-    "chemistry": [
-      "Past_Exams.pdf",
-      "Formula_Booklet_2020-a-Ioannis_Karras.pdf"
-    ]
-  },
-  "future-energy": {
-    "introduction-to-future-energy": [
-      "Equations-a-Olgierd_Janik.pdf",
-      "Notes-a-Roland_Bjerk\u00f8.pdf"
-    ]
-  },
-  "living-systems": {
-    "bio-process-technology": [
-      "Equations-a-CecilieWium.pdf"
-    ],
-    "fermentation-technology": [
-      "Notes_2025-a-Mart\u00ed_Vila.pdf"
-    ],
-    "molecular-biology": [
-      "Super_Notes_pt3-a-CecilieWium.pdf",
-      "Super_Notes_pt5-a-CecilieWium.pdf",
-      "Super_Notes_pt4-a-CecilieWium.pdf",
-      "Super_Notes_pt1-a-CecilieWium.pdf",
-      "Super_Notes_pt6-a-CecilieWium.pdf",
-      "Super_Notes_pt2-a-CecilieWium.pdf"
+      "Exam2025-a-Jakob_Führ.pdf"
     ]
   },
   "cyber-systems": {
@@ -110,10 +94,26 @@
       "Notes-a-Studocu.pdf"
     ]
   },
-  "rest-of-obligatory-courses": {
-    "maths2": [
-      "Notes-a-Olgierd_Janik.pdf",
-      "Notes_2021-a-Ioannis_Karras.pdf"
+  "living-systems": {
+    "molecular-biology": [
+      "Super_Notes_pt1-a-CecilieWium.pdf",
+      "Super_Notes_pt2-a-CecilieWium.pdf",
+      "Super_Notes_pt3-a-CecilieWium.pdf",
+      "Super_Notes_pt4-a-CecilieWium.pdf",
+      "Super_Notes_pt5-a-CecilieWium.pdf",
+      "Super_Notes_pt6-a-CecilieWium.pdf"
+    ],
+    "fermentation-technology": [
+      "Notes_2025-a-Martí Vila.pdf"
+    ],
+    "bio-process-technology": [
+      "Equations-a-CecilieWium.pdf"
+    ]
+  },
+  "future-energy": {
+    "introduction-to-future-energy": [
+      "Equations-a-Olgierd_Janik.pdf",
+      "Notes-a-Roland_Bjerkø.pdf"
     ]
   }
 }

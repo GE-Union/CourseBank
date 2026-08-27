@@ -67,6 +67,19 @@ def source_revision(root: Path) -> str:
     return revision
 
 
+def published_revision(root: Path) -> str:
+    try:
+        value = json.loads((root / CATALOG_FILE).read_text(encoding="utf-8"))
+        revision = value["sourceRevision"]
+    except (OSError, json.JSONDecodeError, KeyError, TypeError) as error:
+        raise CatalogError(f"Could not read the published source revision: {error}") from error
+    if not isinstance(revision, str) or len(revision) != 40 or any(
+        character not in "0123456789abcdef" for character in revision
+    ):
+        raise CatalogError("Published catalog has an invalid source revision")
+    return revision
+
+
 def parse_filename(filename: str) -> tuple[str, str, str]:
     stem = Path(filename).stem
     resource, separator, author = stem.rpartition("-a-")
@@ -275,8 +288,10 @@ def main() -> int:
     parser.add_argument("--check", action="store_true", help="Fail if committed manifests are stale")
     arguments = parser.parse_args()
     root = arguments.root.resolve()
-    revision = arguments.source_revision or source_revision(root)
     try:
+        revision = arguments.source_revision or (
+            published_revision(root) if arguments.check else source_revision(root)
+        )
         catalog, legacy = compile_catalog(root, revision)
         outputs = {CATALOG_FILE: encoded(catalog), LEGACY_FILE: encoded(legacy)}
         if arguments.validate:

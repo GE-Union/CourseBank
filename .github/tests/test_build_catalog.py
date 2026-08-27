@@ -69,6 +69,12 @@ class CatalogCompilerTests(unittest.TestCase):
         second = self.compile()
         self.assertEqual(first, second)
 
+    def test_reads_the_revision_recorded_by_a_published_catalog(self) -> None:
+        (self.root / "catalog.v2.json").write_text(
+            json.dumps({"sourceRevision": REVISION}), encoding="utf-8"
+        )
+        self.assertEqual(catalog.published_revision(self.root), REVISION)
+
     def test_rejects_undeclared_resource_folder(self) -> None:
         undeclared = self.root / "foundations" / "unknown"
         undeclared.mkdir()

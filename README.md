@@ -2,6 +2,8 @@
 
 This repository is both the file store and the backend for the [GE Union course bank](https://geunion.dk/course-bank). GitHub serves the resources and the generated catalog, so the website does not need to bundle or proxy them.
 
+Start with [CONTRIBUTING.md](CONTRIBUTING.md) if this is your first change. It explains which files to edit, the naming rules, and how publishing works.
+
 ## Upload a resource
 
 1. Open the course folder listed in `catalog.source.json`.

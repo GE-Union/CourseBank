@@ -79,13 +79,80 @@ class CatalogCompilerTests(unittest.TestCase):
         undeclared = self.root / "foundations" / "unknown"
         undeclared.mkdir()
         (undeclared / "Notes.pdf").write_bytes(b"pdf")
-        with self.assertRaisesRegex(catalog.CatalogError, "undeclared course folder"):
+        with self.assertRaisesRegex(catalog.CatalogError, "outside a declared course folder"):
+            self.compile()
+
+    def test_rejects_a_resource_at_the_repository_root(self) -> None:
+        (self.root / "Misplaced_notes.pdf").write_bytes(b"pdf")
+        with self.assertRaisesRegex(catalog.CatalogError, "Unexpected file"):
             self.compile()
 
     def test_rejects_unsupported_resource_type(self) -> None:
         (self.root / "foundations" / "math" / "malware.exe").write_bytes(b"no")
         with self.assertRaisesRegex(catalog.CatalogError, "Unsupported resource type"):
             self.compile()
+
+    def test_rejects_invalid_ids_codes_and_raw_hosts(self) -> None:
+        for mutate, message in [
+            (
+                lambda value: value["categories"][0].update({"id": "../foundations"}),
+                "safe path segment",
+            ),
+            (
+                lambda value: value["categories"][0]["courses"][0].update({"code": "101"}),
+                "five digits",
+            ),
+            (
+                lambda value: value["repository"].update(
+                    {"rawBase": "https://raw.githubusercontent.com.example.test/repo"}
+                ),
+                "raw.githubusercontent.com",
+            ),
+        ]:
+            value = source()
+            mutate(value)
+            (self.root / "catalog.source.json").write_text(
+                json.dumps(value), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(catalog.CatalogError, message):
+                self.compile()
+
+    def test_trims_text_and_rejects_empty_categories(self) -> None:
+        value = source()
+        value["site"]["title"] = "  Course bank  "
+        value["categories"][0]["courses"][0]["description"] = "   "
+        (self.root / "catalog.source.json").write_text(
+            json.dumps(value), encoding="utf-8"
+        )
+        manifest, _ = self.compile()
+        self.assertEqual(manifest["site"]["title"], "Course bank")
+        self.assertEqual(
+            manifest["categories"][0]["courses"][0]["description"], ""
+        )
+
+        value["categories"] = []
+        (self.root / "catalog.source.json").write_text(
+            json.dumps(value), encoding="utf-8"
+        )
+        with self.assertRaisesRegex(catalog.CatalogError, "at least one category"):
+            self.compile()
+
+    def test_rejects_credentials_in_urls(self) -> None:
+        value = source()
+        value["site"]["links"][0]["url"] = "https://user@example.com/upload"
+        (self.root / "catalog.source.json").write_text(
+            json.dumps(value), encoding="utf-8"
+        )
+        with self.assertRaisesRegex(catalog.CatalogError, "HTTPS URL"):
+            self.compile()
+
+    def test_uses_repository_independent_media_types(self) -> None:
+        notebook = self.root / "foundations" / "math" / "Notebook.ipynb"
+        notebook.write_bytes(b"{}")
+        manifest, _ = self.compile()
+        files = manifest["categories"][0]["courses"][0]["files"]
+        media_types = {item["filename"]: item["mediaType"] for item in files}
+        self.assertEqual(media_types["Notebook.ipynb"], "application/x-ipynb+json")
 
     def test_rejects_duplicate_course_code_in_category(self) -> None:
         value = source()

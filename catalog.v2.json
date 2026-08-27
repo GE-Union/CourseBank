@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "sourceRevision": "7601c8d4723e6272ebb259030ea37ab9fbbc8474",
+  "sourceRevision": "429cd8b4c7ef134c263c1c10bc2be696099f7bd1",
   "repository": {
     "rawBase": "https://raw.githubusercontent.com/GE-Union/CourseBank"
   },
@@ -121,7 +121,7 @@
               "title": "Scripts Notebook",
               "author": "Nathan and Eirik",
               "extension": "IPYNB",
-              "mediaType": "application/octet-stream",
+              "mediaType": "application/x-ipynb+json",
               "bytes": 26756
             }
           ]
@@ -222,7 +222,7 @@
               "title": "Python Overview",
               "author": "Afonso Brito",
               "extension": "IPYNB",
-              "mediaType": "application/octet-stream",
+              "mediaType": "application/x-ipynb+json",
               "bytes": 248229
             }
           ]
@@ -250,7 +250,7 @@
               "title": "Exam 2024 Code Solution",
               "author": "Carl Johan",
               "extension": "IPYNB",
-              "mediaType": "application/octet-stream",
+              "mediaType": "application/x-ipynb+json",
               "bytes": 300991
             },
             {
@@ -313,7 +313,7 @@
               "title": "Python code",
               "author": "Nitansh Thaker",
               "extension": "IPYNB",
-              "mediaType": "application/octet-stream",
+              "mediaType": "application/x-ipynb+json",
               "bytes": 300991
             }
           ]
@@ -332,7 +332,7 @@
               "title": "Code",
               "author": "Auksė Timinskaitė",
               "extension": "IPYNB",
-              "mediaType": "application/octet-stream",
+              "mediaType": "application/x-ipynb+json",
               "bytes": 84790
             },
             {
@@ -545,7 +545,7 @@
               "title": "Code",
               "author": "Auksė Timinskaitė",
               "extension": "IPYNB",
-              "mediaType": "application/octet-stream",
+              "mediaType": "application/x-ipynb+json",
               "bytes": 116439
             },
             {
